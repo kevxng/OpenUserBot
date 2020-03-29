@@ -17,7 +17,7 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
-    "`Hi! Sorry, i haven't approved you to PM yet.`\n"
+    "`Hi! Sorry, Kevin hasn't approved you to PM yet.`\n"
     "`Until then, please don't spam.`\n"
     "`Thank you`\n"
     "`*This is an automated message*`\n"
@@ -70,8 +70,8 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                        "`You were spamming my Mastor's PM, which I didn't like.`\n"
-                        "`You have been BLOCKED and reported as SPAM, until further notice.`"
+                        "`You were spamming Kevin's PM, which he didn't like.`\n"
+                        "`You have been BLOCKED and reported as SPAM, wait until Kevin is online.`"
                     )
 
                     try:
