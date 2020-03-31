@@ -78,7 +78,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/mkaraniya/OpenUserBot.git")
+    "https://github.com/kevxng/userbot.git")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -153,7 +153,8 @@ GENIUS_API_TOKEN = os.environ.get("GENIUS", None)
 # Genius lyrics get this value from https://genius.com/developers both has same values
 GENIUS = os.environ.get("GENIUS_API_TOKEN", None)
 
-
+# Quotes API Token
+QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Setting Up CloudMail.ru and MEGA.nz extractor binaries,
 # and giving them correct perms to work properly.
