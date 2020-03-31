@@ -147,7 +147,7 @@ async def dyno_usage(dyno):
                            )
 
 
-  CMD_HELP.update({
+CMD_HELP.update({
     "heroku":
     "`.usage`"
     "\nUsage: Check your heroku dyno hours remaining"
@@ -160,4 +160,4 @@ async def dyno_usage(dyno):
     "\n\n`.del var <VAR>`"
     "\nUsage: delete existing variable"
     "\n!!! WARNING !!!, after deleting variable the bot will restarted"
-  })
+})
