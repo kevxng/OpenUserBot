@@ -66,7 +66,7 @@ async def variable(var):
     elif exe == "set":
         await var.edit("`Setting information...`")
         variable = var.pattern_match.group(2)
-        try:	        if not variable:
+        if not variable:
             val[1]	            return await var.edit(">`.set var <ConfigVars-name> <value>`")
         except IndexError:	        value = var.pattern_match.group(3)
             return await var.edit("`.set var <config name> <value>`")	        if not value:
